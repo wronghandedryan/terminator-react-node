@@ -4,8 +4,7 @@
   "description": "Source code repository for a tutorial on how to create terminals in browser.",
   "main": "index.js",
   "scripts": {
-		"build": "concurrently  \"cd client && npm build\"",
-		"start": "concurrently \"cd server && npm start\" \"cd -\" \"cd client && npm start\"",
+		
     "dev": "concurrently \"cd server && npm start\" \"cd -\" \"cd client && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

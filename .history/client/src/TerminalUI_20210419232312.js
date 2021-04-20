@@ -11,6 +11,7 @@ export class TerminalUI {
     this.terminal.setOption("theme", {
       background: "#000000",
       foreground: "#fff"
+			font; ":"
     });
 
     this.socket = socket;

@@ -10,7 +10,8 @@ export class TerminalUI {
     /* You can make your terminals colorful :) */
     this.terminal.setOption("theme", {
       background: "#000000",
-      foreground: "#fff"
+      foreground: "#fff",
+			font: "00400",
     });
 
     this.socket = socket;

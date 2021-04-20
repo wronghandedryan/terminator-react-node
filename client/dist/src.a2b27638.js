@@ -222,8 +222,8 @@ function () {
     /* You can make your terminals colorful :) */
 
     this.terminal.setOption("theme", {
-      background: "#202B33",
-      foreground: "#F5F8FA"
+      background: "#000000",
+      foreground: "#fff"
     });
     this.socket = socket;
   }
@@ -9762,7 +9762,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60786" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54961" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
