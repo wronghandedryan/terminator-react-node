@@ -1,0 +1,16 @@
+{
+  "name": "terminator-browser",
+  "version": "1.0.0",
+  "description": "Source code repository for a tutorial on how to create terminals in browser.",
+  "main": "index.js",
+  "scripts": {
+		"dev": "concurrently \"cd server ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2"
+  }
+}
